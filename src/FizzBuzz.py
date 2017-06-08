@@ -16,15 +16,16 @@ def fizz_buzz_assess():
 
 
 def fizz_buzz(x):
-    if x % 3 == 0 and i % 5 == 0:
+    if x % 3 == 0 and x % 5 == 0:
         y = "FizzBuzz"
-    if x % 3 == 0:
+    elif x % 3 == 0:
         y = "Fizz"
-    if x % 5 == 0:
+    elif x % 5 == 0:
         y = "Buzz"
     else:
         y = x
     return y
 
+
 if __name__ == '__main__':
-    fizz_buzz_assess()
+    fizz_buzz()
